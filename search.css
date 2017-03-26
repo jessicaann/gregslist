@@ -16,6 +16,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	font-size: x-large;
+	margin-top: 15px;
 }
 a:link {
 	color: purple;
@@ -27,9 +28,10 @@ a:link {
 	margin-right: 100px;
 }
 input[type=image] {
-	width: 34px;
+	width: 31px;
 	position: relative;
-	top: 10px
+	top: 10px;
+	border: 1px solid lightgrey;
 }
 .searchbar {
 	width: 500px;
@@ -65,10 +67,21 @@ button {
 }
 ul {
 	list-style: none;
+	-webkit-margin-before: 0;
+	-webkit-padding-start: 0;
+	font-size: 18px;
 }
-li {
-	display: inline-block;
+ul li {
+	margin-top: 1em;
+}
+ul li span {
 	color: blue;
+	font-weight: bold;
+}
+ul li div {
+	display: inline-block;
+	color: grey;
+	margin-left: 1em;
 }
 h1 {
 	font-weight: lighter;

@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, Calibri, Verdana, sans-serif;
+}
+nav {
+	width: 100%;
+	background-color: lightgrey;
+	position: fixed;
+	top: 0;
+}
+nav ul {
+	position: absolute;
+	list-style: none;
+	right: 0;
+	top: 0;
+}
+nav ul li {
+	display: inline-block;
+	font-size: x-large;
+}
+a:link {
+	color: purple;
+	text-decoration: none;
+}
+.content {
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+input[type=image] {
+	width: 34px;
+	position: relative;
+	top: 10px
+}
+.searchbar {
+	width: 500px;
+	padding: 4px;
+	margin-top: 10px;
+}
+.post {
+	margin-right: 10px;
+}
+.space {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.button1 {
+	border-radius: 5px 0px 0 5px; 
+}
+.button3 {
+	border-radius: 0 5px 5px 0;
+}
+.button2 {
+	padding-left: 2em;
+	padding-right: 2em
+}
+.results {
+	margin-top: 4em;
+}
+button {
+	margin-top: 3em;
+	padding: 12px 0;
+	font-size: 16px;
+	border: 1px solid lightgrey;
+	background-color: white;
+}
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	color: blue;
+}
+h1 {
+	font-weight: lighter;
+	margin-left: 5px;
+}
+label {
+	display: block;
+	font-size: 17px;
+}
+input {
+	display: inline-block;
+	font-size: 18px;
+}
+time {
+	color: grey;
+	margin-right: 1em;
+}
